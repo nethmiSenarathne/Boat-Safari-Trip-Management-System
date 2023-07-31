@@ -1,0 +1,11 @@
+function checkpassword(){
+	if(document.getElementById("pwd").value != document.getElementById("confirm").value){
+		alert("Password mismatch!!!");
+		return false;
+	}
+	else{
+		alert("Successfully registered!");
+		return true;
+	}
+}
+

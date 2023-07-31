@@ -1,0 +1,141 @@
+/*room details images*/
+.image-container{
+    text-align: center;
+}
+/*room details table*/
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 3px solid black;
+}
+h1{
+    text-align:center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+table,th,td{
+    color: black;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+    
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 2px;
+    display: inline-block;
+}
+.change{
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #0805ad;
+	text-align: center;
+	padding: 2px;
+
+}
+body{
+	background-image: url("../images/beach.jpg");
+}
+
+
+/*header*/
+
+.img-logo{
+	border-radius:50%;
+}
+
+.img-user{
+	margin-top:20px;
+	margin-right:10px;
+}
+
+.dropdown{
+	float:right;
+	margin-top:68px;
+}
+
+.nav-bar ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+}
+
+.nav-bar-content li{
+	float:left;
+}
+
+.nav-bar-content li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+.nav-bar-content li a:hover {
+	background-color:#17a6e8;
+}
+/*footer*/
+
+body{
+	line-height:1.5;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	max-width:1170px;
+	margin:auto;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+ul{
+	list-style:none;
+}
+
+.footer{
+	background-color:#24262b;
+	padding:70px 0;
+}
+
+.col{
+	width:25%;
+	padding:0 15px;
+}
+
+.col h4{
+	font-size:18px;
+	color:#ffffff;
+	text-transform:capitalize;
+	margin-bottom:35px;
+	font-weight:800;
+	position:relative;
+}
+
+.col h4::before{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	background-color:#e91e63;
+	height:2px;
+	box-sizing:border-box;
+	width:50px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Account</title>
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body style="background-color:white">
+        <header>
+            <img src="images/PEARL.png" alt="Website Logo" width="100px" height="100px" class="img-logo">
+            
+            <img src="images/user1.jpg" alt="user icon" width="70px" height="70px" align="right" class="img-user">
+            
+            
+            <div class="dropdown">
+                <select>
+                    <option value="login">Login</option>
+                    <option value="logout">Logout</option>
+                </select>
+            </div>
+            
+            <div class="nav-bar">
+                <ul>
+                    <div class="nav-bar-content">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="register.html">Registration</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="book.html">Book</a></li>
+                        <li><a href="aboutus.html">More</a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <div align="Center">
+            <form action="php/displayUser.php" method="get">
+                <h3>View User Dtails  </h3>
+                <button class="btn btn-primary" a href="php/displayUser.php">View</button>
+                <h3>Update User Details</h3>
+                <button type="button" onclick="location.href='updateprofile.html'">Update Profile</button>
+                  
+            </form>   
+            <form action="php/deleteUser.php" method="get">
+                <h3>Delete User Details</h3>
+                <button>Delete</button>
+            </form> 
+            <h3>Go Back to the Home Page</h3>
+            <button>Back</button>   
+        </div>  
+        <br>
+        <br>
+        <br>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="useraccount.html">User Account</a></li>
+                            <li><a href="accomodation.html">Accommodations</a></li>
+                            <li><a href="experiences.html">Experiences</a></li>
+                            <li><a href="payments.html">Payments</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="review.html">Reviews & Rates</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Service Provider</h4>
+                        <ul>
+                            <li><a href="seller.html">Seller Page</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <div>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+    </body>
+</html>
